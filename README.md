@@ -7,4 +7,5 @@
  - Por prioridade com preempção por prioridade;
  - Round-Robin com quantum = 2s sem prioridade;
  - Round-robin com prioridade e envelhecimento (tq=2, α=1);
+
 Foi utilizada a IDE Dev-C++ para a construção do código em todo o andamento do projeto. 
