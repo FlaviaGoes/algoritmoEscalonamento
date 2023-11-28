@@ -6,7 +6,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-#define QTDPROCESSOS 4
+#define QTDPROCESSOS 5
 
 typedef struct {
 	std::string id = "";
