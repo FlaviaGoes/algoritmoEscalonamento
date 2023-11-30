@@ -9,7 +9,7 @@
 //ADS - 2o Semestre 2023
 //Professor - Newton
 
-//Flávia Moreira Goes
+//Flavia Moreira Goes
 //Renan Yohanssen Martins
 //Ruhan Garatini
 
@@ -115,8 +115,8 @@ void fcfs(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos
@@ -171,8 +171,8 @@ void SJF(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos
@@ -238,8 +238,8 @@ void prioridade(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos
@@ -313,8 +313,8 @@ void prioridadePreempcao(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos	
@@ -397,8 +397,8 @@ void roundRobin(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos
@@ -471,8 +471,8 @@ void roundRobinPrioridade(processo proc[]) {
 	printf("Tempo\t"); //Imprime cabecalho do tempo
 	for(int i = 0; i < QTDPROCESSOS; i++) {
 		printf("P%d\t", i+1); //Imprime o cabecalho de cada tarefa
-		fila[i].id = ""; //Evitar lixo de memória
-		fila[i].status = ""; //Evitar lixo de memória
+		fila[i].id = ""; //Evitar lixo de memoria
+		fila[i].status = ""; //Evitar lixo de memoria
 	}
 	
 	while(procFinalizado < QTDPROCESSOS) { //Enquanto a quantidade de processos finalizados for menor que a quantidade de processos	
